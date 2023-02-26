@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ACECrypto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_market">Market</string>
+    <string name="title_balance">Balance</string>
+    <string name="web_client_id">741382598664-7mcm14hcs77s45pcsko6ndsee3m3vj3p.apps.googleusercontent.com</string>
+</resources>

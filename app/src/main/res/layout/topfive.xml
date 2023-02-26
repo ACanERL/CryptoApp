@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/theme3"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/cName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Bitcoin"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Cprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="12,1254.01"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Ctext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="40dp"
+            android:text="$"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/changetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="10dp"
+            android:text="24h" />
+
+        <TextView
+            android:id="@+id/Cchange"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="40dp"
+            android:text="-1.2 " />
+
+        <TextView
+            android:id="@+id/Crate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:text="%"
+            tools:ignore="DuplicateIds" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

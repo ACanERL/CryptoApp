@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741382598664",
+    "firebase_url": "https://acrypto-7baf9-default-rtdb.firebaseio.com",
+    "project_id": "acrypto-7baf9",
+    "storage_bucket": "acrypto-7baf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741382598664:android:6166712467497348b321bd",
+        "android_client_info": {
+          "package_name": "com.ahmetcanerol.acecrypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741382598664-viodm60j444oetrujfv1ibfcv72i2nhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmetcanerol.acecrypto",
+            "certificate_hash": "cebd15734846d3411b24487deadd39c05e2b3278"
+          }
+        },
+        {
+          "client_id": "741382598664-7mcm14hcs77s45pcsko6ndsee3m3vj3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAVPf-2pneR6RTcCxrIA0ggxs1jsJmmm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741382598664-7mcm14hcs77s45pcsko6ndsee3m3vj3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

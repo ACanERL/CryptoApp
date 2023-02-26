@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ahmetcanerol.acecrypto.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_marketFragment"
+            app:destination="@id/marketFragment" />
+        <action
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_homeFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+        <action
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_homeFragment_to_balanceFragment"
+            app:destination="@id/balanceFragment" />
+        <action
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_homeFragment_to_detailFragment2"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.ahmetcanerol.acecrypto.fragment.MarketFragment"
+        android:label="fragment_market"
+        tools:layout="@layout/fragment_market" >
+        <action
+            android:id="@+id/action_marketFragment_to_balanceFragment"
+            app:destination="@id/balanceFragment" />
+        <action
+            app:popUpTo="@id/marketFragment"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_marketFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/balanceFragment"
+        android:name="com.ahmetcanerol.acecrypto.fragment.BalanceFragment"
+        android:label="fragment_balance"
+        tools:layout="@layout/fragment_balance" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.ahmetcanerol.acecrypto.fragment.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.ahmetcanerol.acecrypto.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
